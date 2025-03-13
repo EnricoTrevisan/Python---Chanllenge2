@@ -1,0 +1,9 @@
+menu = ['Single C. Burguer', 'Duple C. Burguer', 'Triple C. Burguer', 'X Certo', 'Egg Certo', "Bacon Certo", 'Tudo Certo', "Queijo Certo", "Nada Certo"]
+precos = [14.99, 17.99, 19.99, 12.99, 11.99, 13.99, 24.99, 12.99, 9.99]
+
+print("Seja bem-vindo ao Triple Certo Lanches!")
+print("Nosso cardápio, neste momento é", menu, ". E seus respectivos preços são ", precos)
+
+opcao = int(input("Digite a sua escolha:"))
+
+print(f"O seu pedido de lanche foi o {menu[opcao-1]}, e seu custo será de {precos[opcao-1]} reais.")
